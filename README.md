@@ -420,4 +420,4 @@ You have now built a complete, senior-grade bacterial de novo assembly and annot
 
 ---
 
-**Next Module →** *Module 2: Comparative Genomics & Phylogenomic Analysis*
+**Next Module →** *Module 2: Comparative Genomics & Phylogenomic Analysis Pipeline*
