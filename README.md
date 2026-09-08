@@ -58,7 +58,7 @@ By the end of this module, you will understand not just *which command to run*, 
 
 ## Workflow Map
 
-### Visual Workflow (Mermaid)
+### Visual Workflow 
 
 ```mermaid
 graph TD
