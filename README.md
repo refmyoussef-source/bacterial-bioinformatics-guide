@@ -47,7 +47,7 @@ This module builds a **production-grade bacterial de novo assembly and annotatio
 |---|---|---|
 | **Short-read only** | Illumina (NovaSeq, MiSeq) | High per-base accuracy, but struggles across repeats (rRNA operons, IS elements) → fragmented assemblies |
 | **Long-read only** | Oxford Nanopore (ONT), PacBio | Resolves repeats and yields circularized chromosomes/plasmids, but historically higher raw error rate |
-| **Hybrid** | Illumina + ONT | Combines long-read contiguity with short-read accuracy — the current gold standard for closed bacterial genomes |
+| **Hybrid** | Illumina + ONT | Combines long-read contiguity with short-read accuracy, the current gold standard for closed bacterial genomes |
 
 By the end of this module, you will understand not just *which command to run*, but **why each tool exists at that specific point in the pipeline**, what biological artifact it is correcting for, and how to defend your pipeline design decisions in a senior technical interview or a peer-reviewed methods section.
 
