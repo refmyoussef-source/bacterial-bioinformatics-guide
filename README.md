@@ -106,7 +106,7 @@ graph TD
 
 ---
 
-## Biological Context & Senior Interview Scenarios
+## Biological Context &  Interview Scenarios
 
 ### Real-World Applications
 
