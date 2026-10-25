@@ -111,7 +111,7 @@ graph TD
 ### Real-World Applications
 
 - **Outbreak Tracking & Genomic Epidemiology**: Public health labs (e.g., PulseNet, GHRU) assemble bacterial isolates (*Salmonella*, *Listeria*, *E. coli* O157:H7) to build high-resolution SNP phylogenies for outbreak source attribution. Assembly quality directly determines SNP-calling reliability.
-- **Reference Genome Construction**: Building a finished, closed reference genome (chromosome + plasmids) for a novel isolate or strain used in downstream comparative studies, requires hybrid assembly to resolve rRNA operons and mobile genetic elements.
+- **Reference Genome Construction**: Building a finished, closed reference genome (chromosome + plasmids) for a novel isolate or strain used in downstream comparative studies requires hybrid assembly to resolve rRNA operons and mobile genetic elements.
 - **Taxonomic Delineation & Novel Species Description**: Formal species description (per SeqCode/ICNP-adjacent bacterial taxonomy standards) requires Average Nucleotide Identity (ANI) and digital DNA-DNA hybridization (dDDH), both of which depend on assembly completeness and contamination being tightly controlled.
 - **AMR Surveillance**: Assembled and annotated genomes feed into AMR gene detection (ResFinder, AMRFinderPlus, CARD) — fragmented assemblies risk splitting resistance genes across contig boundaries, causing false negatives.
 - **Plasmid Epidemiology**: Tracking horizontal transfer of resistance plasmids (e.g., blaKPC, mcr-1) across strains requires an assembler capable of resolving circular replicons distinct from the chromosome — a core strength of hybrid assembly.
